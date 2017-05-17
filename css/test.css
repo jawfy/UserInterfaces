@@ -12,6 +12,30 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+::-moz-selection { 
+    background: #000; 
+}
+
+::selection { 
+    background: #000; 
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -218,7 +242,7 @@ a:hover {
     position: relative;
     display: table;
     padding-bottom: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .featurette-image {
@@ -273,17 +297,28 @@ a:hover {
 
 .input-group {
     margin: 0 auto;
-    margin-right: -60px;
     text-align: center;
+    width: 80%;
 }
 
 input {
-    padding: 10px;
-    border: none;
-    border-radius: none;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    color: #fff;
+	padding: 20px;
+	font-size: 15px;
+	width: 50%;
+	background: #fff;
+	color: #555;
+	border-radius: 0px;
+	border: none;
+}
+
+textarea {
+	padding: 20px;
+	width: 50%;
+	font-size: 15px;
+	background: #fff;
+	color: #555;
+	border-radius: 0px;
+	border: none;
 }
 
 .btn-done {
@@ -319,7 +354,9 @@ placeholder {
     position: relative;
     display: table;
     padding: 25px;
-    background-color: #00FF55;
+    background-image: url(../contact-bg.png);
+    background-size: cover;
+    background-position: center;
     color: #fff;
 
 }
@@ -345,4 +382,53 @@ placeholder {
     margin: 0 auto;
     font-size: 15px;
     text-shadow: 0px 5px 10px rgba(0,0,0,0.175);
+}
+
+.contact-us {
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
+
+.contact {
+    background-image: url(../contact-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.175);;
+    color: #fff;
+    margin-bottom: 150px;
+    padding: 25px;
+}
+
+.contact-head {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 25px;
+}
+
+.contact-lead {
+
+}
+
+.btn-submit {
+    padding: 20px;
+	font-size: 15px;
+	width: 50%;
+	background: #0D80FF;
+	color: #fff;
+	border-radius: 0px;
+	border: none;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-submit:focus,
+.btn-submit:hover,
+.btn-submit:active {
+    background-color: #2c65a4;
+    color: #fff;
 }

@@ -1,0 +1,348 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Text Alignment */
+.text-alignment {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Header styles */
+.header {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    display: table;
+    background-image: url(../header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    #header-text {
+        color: #fff;
+    }
+
+    #online {
+        color: #00FF55;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #websites {
+        color: #00FF55;
+        transition: all 0.3s ease-in-out;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #websites:focus,
+    #websites:hover,
+    #websites:active {
+        text-decoration: none;
+        color: #0D80FF;
+        text-decoration: none;
+        text-shadow: 0px 5px 10px rgba(0,0,0,0.375);
+    }
+
+    #online:focus,
+    #online:hover,
+    #online:active {
+        color: #0D80FF;
+        text-decoration: none;
+        text-shadow: 0px 5px 10px rgba(0,0,0,0.375);
+    }
+
+
+/* Info */
+.info {
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    position: relative;
+    display: table;
+    background-color: #eee;
+}
+
+    .block1 {
+        margin-top: -100px;
+        z-index: 1;
+        padding: 25px;
+        padding-bottom: 5px;
+        background-color: #0D80FF;
+        color: #fff;
+        box-shadow: 0px 10px 40px rgba(0,0,0,0.175);
+    }
+
+        .courses {
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        .courses-p {
+            text-align: center;
+            font-size: 1.1em;
+
+        }
+
+        .btn-more {
+            width: 100%;
+            text-align: center;
+            background-color: #0D80FF;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 0px;;
+            padding: 10px;
+            box-shadow: 0px 15px 30px rgba(0,0,0,0.175);
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+        }
+
+        .btn-2 {
+            background-color: #FF4D03;
+        }
+
+        .btn-3 {
+            background-color: #961DE8;
+        }
+
+        .btn-4 {
+            background-color: #00FF55;
+        }
+
+        .btn-more:focus,
+        .btn-more:hover,
+        .btn-more:active {
+            color: #fff;
+            box-shadow: 0px 15px 30px rgba(0,0,0,0.275);
+        }
+
+    .block2 {
+        background-color: #FF4D03;
+    }
+
+    .block3 {
+        background-color: #961DE8;
+    }
+
+    .block4 {
+        background-color: #00FF55;
+    }
+
+    .info-heading {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #222;
+        text-align: center;
+    }
+
+
+/* Features */
+.features {
+    width: 100%;
+    background-color: #eee;
+    position: relative;
+    display: table;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+/* Buttons */
+.buttons {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display: table;
+    margin-top: -40px;
+}
+
+    .btn-change {
+        width: 100%;
+        text-align: center;
+        background-color: #0D80FF;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 0px;;
+        padding: 20px;
+        box-shadow: 0px 15px 30px rgba(0,0,0,0.175);
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+    }
+
+    .btn-change:focus,
+    .btn-change:hover,
+    .btn-change:active {
+        box-shadow: 0px 10px 40px rgba(0,0,0,0.375);
+        color: #fff;
+    }
+
+    #change {
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+
+.header-buttons {
+    padding: 50px;
+    background-image: url(../buttons.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    margin-top: -8px;
+}
+
+.portfolio {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: table;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
+}
+
+.featurette-image {
+    border-radius: 0px;
+}
+
+.img-heading {
+    font-family: 'Merriweather', serif;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.img-desc {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.divider {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 80px 0;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    height: 10%;
+    padding: 20px;
+}
+
+.date {
+    margin-left: 80%;
+}
+
+.subscribe {
+    width: 100%;
+    height: 15%;
+    padding: 25px 0px 50px 0px;
+    background-color: #0D80FF;
+    position: relative;
+    display: table;
+    color: #fff;
+}
+
+.subscribe-heading {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    -webkit-transiton: 1s;
+}
+
+.input-group {
+    margin: 0 auto;
+    margin-right: -60px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #fff;
+}
+
+.btn-done {
+    margin-left: -76%;
+    border-radius: 0px;
+    border: none;
+    padding: 10px;
+    background-color: #222;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-done:focus,
+.btn-done:hover,
+.btn-done:active {
+    background-color: #444;
+    color: #fff;
+}
+
+placeholder {
+    text-align: center;
+    color: #fff;
+}
+
+.head {
+    margin: 0 auto;
+}
+
+.staff {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 25%;
+    position: relative;
+    display: table;
+    padding: 25px;
+    background-color: #00FF55;
+    color: #fff;
+
+}
+
+.staff-image {
+    border-radius: 100%;
+    box-shadow: 0px 10px 40px rgba(0,0,0,0.175);
+    width: 25%;
+    margin: 0 auto;
+    margin-top: -150px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.175);
+}
+
+.sub-desc {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-shadow: 0px 5px 10px rgba(0,0,0,0.175);
+}

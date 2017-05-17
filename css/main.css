@@ -1,0 +1,145 @@
+/* Welcome Hero */
+.welcome-hero {
+	height: 80%;
+	width: 100%;
+
+    display: table;
+    position: relative;
+    
+	color: #fff;
+	font-family: 'Shrikhand', cursive;
+
+    background-image: url(../hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+	#welcome-header {
+		text-shadow: 0 3px 10px rgba(0,0,0,0.375);
+	}
+
+	#school {
+		font-family: 'Roboto', sans-serif;
+		letter-spacing: 10pt;
+
+		text-transform: capitalize;
+		color: #fff;
+	}
+
+/* News Hero */
+.news-hero {
+	height: 50%;
+	width: 100%;
+
+	padding-top: 125px;
+	padding-bottom: 125px;
+
+	display: table;
+	position: relative;
+
+	color: #fff;
+	background-color: #222;
+}
+
+
+	/* Content Styling */
+	.content-box {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-right: 50px;
+		padding-left: 50px;
+
+		width: 100%;
+		margin: 0 auto;
+
+		position: relative;
+		display: table;
+		margin-bottom: 15px;
+
+		background-color: #fff;
+
+		color: #222;
+		box-shadow: 0 10px 40px rgba(0,0,0,0.175);
+
+		transition: all 0.3s ease;
+		position: relative;
+
+	}
+
+		.content-box:hover {
+			background-color: #00ccff;
+			color: #fff;
+			box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+		}
+
+			#content-title {
+				font-family: 'Shrikhand', cursive;
+				text-shadow: 0 3px 5px rgba(0,0,0,0.275);
+
+				transition: all 0.3s ease-in-out;
+			}
+
+		#content {
+			font-size: 1.2em;
+			color: #222;
+			font-weight: bold;
+
+			margin-top: 15px;
+			width: 95%;
+
+			text-shadow: none;
+		}
+
+		.attachment-container {
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			background-color: #00ccff;
+			margin-top: 20px;
+			box-shadow: 0 10px 40px rgba(0,0,0,0.175);
+		}
+
+		.content-img {
+			box-shadow: 0 10px 40px rgba(0,0,0,0.175);
+			margin-right: 5px;
+			margin-left: 15px;
+		}
+
+			#attachment {
+				color: #fff;
+				font-size: 1.6em;
+				
+				margin-left: 10px;
+				margin-top: 15px;
+				margin-bottom: 30px;
+			}
+
+			#attachment-text {
+				font-family: 'Roboto', sans-serif;
+				font-size: 1.3em;
+				font-weight: normal;
+
+				margin-left: 15px;
+				color: #fff;
+			}
+
+			#pdf {
+				color: #fff;
+				font-size: 2em;
+				margin-left: 10px;
+				margin-top: -10px;
+			}
+
+				#pdf-name {
+					font-weight: normal;
+					font-size: 0.5em;
+					margin-left: 10px;
+				}
+
+/* Text Alignment */
+.text-vertical-center {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
